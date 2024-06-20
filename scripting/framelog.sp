@@ -126,6 +126,12 @@ void StopProfiling()
     g_iFramesProcessed = 0;
     g_iFrameTimeIndex = 0;
 
+    // Clear the frame time array
+    for (int i = 0; i < FRAME_TIME_ARRAY_SIZE; i++)
+    {
+        g_fFrameTimeArray[i] = 0.0;
+    }
+
     CloseLogFiles();
 
     PrintToChatAll("Frame time profiling completed.");
