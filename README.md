@@ -20,7 +20,8 @@ example: `sm_framelog test 5000` will log 5000 ticks in 4 files with test in the
 
 generated in `sourcemod/configs/frametime_deviation.cfg`
 
-```// Enable frame time deviation logging for 1000 ticks
+```
+// Enable frame time deviation logging for 1000 ticks
 // -
 // Default: "1"
 sm_frametime_enable_1000_ticks "1"
