@@ -6,6 +6,8 @@ creates four logfiles in `sourcemod/logs/frametime`
 - log 3. same as log 2 but 100 ticks
 - log 4. same as log 2 but 1000 ticks
 
+note: ignore the first value of each logfile. first one is mega skewed
+
 ## usage
 
 - `sm_framelog "prefix" <tickcount>`
