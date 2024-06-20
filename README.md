@@ -10,9 +10,11 @@ note: ignore the first value of each logfile. first one is mega skewed
 
 ## usage
 
-- `sm_framelog "prefix" <tickcount>`
+- `sm_framelog prefix tickcount`
 - `prefix` is the prefix to include in the logfile names
 - `tickcount` is for how many ticks you want to log (min: 1, max: 9999)
+
+example: `sm_framelog test 5000` will log 5000 ticks in 4 files with test in their name
 
 ## cvars
 
