@@ -124,6 +124,7 @@ void StopProfiling()
     g_iProfilingTicks = 0;
     g_sProfilingPrefix[0] = '\0';
     g_iFramesProcessed = 0;
+    g_iFrameTimeIndex = 0;
 
     CloseLogFiles();
 
